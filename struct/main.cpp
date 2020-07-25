@@ -28,7 +28,6 @@ int main()
     printAddr(azCopy);
 
     return 0;
-
 }
 
 void printAddr(address& address)
