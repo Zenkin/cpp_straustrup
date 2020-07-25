@@ -22,10 +22,8 @@ int main()
                "Saint-Petersburg",
                197227
                };
-    address azCopy = az;
 
     printAddr(az);
-    printAddr(azCopy);
 
     return 0;
 }
