@@ -10,6 +10,7 @@ struct address {
     pchar street;
     pchar town;
     int index;
+    pchar work;
 };
 
 void printAddr(address& address);
@@ -20,7 +21,8 @@ int main()
                8,
                "Komendantski prospect",
                "Saint-Petersburg",
-               197227
+               197227,
+               "ITMO University"
                };
 
     printAddr(az);
@@ -33,5 +35,6 @@ void printAddr(address& address)
     cout    << '\n' << address.name << '\n'
             << address.street << ", " << address.number << '\n'
             << address.town << '\n'
-            << address.index << endl;
+            << address.index << '\n'
+            << address.work << endl;
 }
